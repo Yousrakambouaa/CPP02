@@ -1,14 +1,14 @@
-NAME = ex00
+NAME = bsp
 
 CXX = c++
 
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98  
 
-SRC = Fixed.cpp main.cpp
+SRC = Fixed.cpp main.cpp Point.cpp
 
 OBJ = $(SRC:.cpp=.o)
 
-HEADERS = Fixed.hpp
+HEADERS = Fixed.hpp Point.hpp
 
 all: $(NAME)
 
